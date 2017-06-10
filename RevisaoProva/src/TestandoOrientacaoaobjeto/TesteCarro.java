@@ -25,7 +25,7 @@ public class TesteCarro {
        //liga o carro
        meuCarro.liga();
        
-       //acelera o carro
+           //acelera o carro
        meuCarro.acelera(20);
         System.out.println(meuCarro.velocidadeAtual);
      
