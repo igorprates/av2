@@ -18,7 +18,10 @@ public class Programa {
         minhaConta.dono = "Igor";
         minhaConta.saldo = 2000.0;
         
-        System.out.println("Saldo atual: " + minhaConta.saldo);
+        minhaConta.saca(200);
+        
+        minhaConta.deposita(500);
+        System.out.println("Saldo da minha conta e: " + minhaConta.saldo);
         
     }
 }
